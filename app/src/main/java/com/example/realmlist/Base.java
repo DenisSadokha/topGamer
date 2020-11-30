@@ -9,6 +9,7 @@ public class Base extends RealmObject {
     private String code;
     @PrimaryKey
     private int id;
+     
 
 
 
