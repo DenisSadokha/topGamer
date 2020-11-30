@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+<EditText
+    android:layout_marginTop="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:hint="Print Name"
+    android:id="@+id/etName">
+</EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Print count"
+        android:id="@+id/etCount"
+        >
+    </EditText>
+    <Button
+        android:layout_marginStart="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:textStyle="bold"
+        android:id="@+id/bOk">
+    </Button>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec"
+        android:layout_width="match_parent"
+        android:layout_height="427dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
